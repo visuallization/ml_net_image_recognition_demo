@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLDigitApp", "MLDigitApp\MLDigitApp.csproj", "{72128907-D113-4EA7-81C4-5441D853DA87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLDigitApp", "MLDigitApp\MLDigitApp.csproj", "{72128907-D113-4EA7-81C4-5441D853DA87}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLDigitAppML.Model", "MLDigitAppML.Model\MLDigitAppML.Model.csproj", "{E0C319B6-7DEA-4809-94B4-3EC2F1585654}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLDigitAppML.ConsoleApp", "MLDigitAppML.ConsoleApp\MLDigitAppML.ConsoleApp.csproj", "{61245A57-CE71-4C78-B0BD-62A2872EA65E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REST", "REST\REST.csproj", "{DEA84CE5-A996-4D8C-83AD-C7F708689D11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{61245A57-CE71-4C78-B0BD-62A2872EA65E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61245A57-CE71-4C78-B0BD-62A2872EA65E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61245A57-CE71-4C78-B0BD-62A2872EA65E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEA84CE5-A996-4D8C-83AD-C7F708689D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA84CE5-A996-4D8C-83AD-C7F708689D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA84CE5-A996-4D8C-83AD-C7F708689D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA84CE5-A996-4D8C-83AD-C7F708689D11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

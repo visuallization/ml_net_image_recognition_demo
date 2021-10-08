@@ -27,7 +27,7 @@ namespace MLDigitAppML.Model
             MLContext mlContext = new MLContext();
 
             // Load model & create prediction engine
-            string modelPath = @"C:\Users\Florentin\AppData\Local\Temp\MLVSTools\MLDigitAppML\MLDigitAppML.Model\MLModel.zip";
+            string modelPath = @"D:\Documents\Studium\Technikum\SWE\SWE_1\mlDigitApp\MLDigitApp\MLDigitAppML.Model\MLModel.zip";
             ITransformer mlModel = mlContext.Model.Load(modelPath, out var modelInputSchema);
             var predEngine = mlContext.Model.CreatePredictionEngine<ModelInput, ModelOutput>(mlModel);
 
